@@ -9,3 +9,4 @@ req <- request("https://newsapi.org/v2/everything") |>
   )
 
 req_perform(req, path = paste0("data/", Sys.Date(), ".json"))
+
